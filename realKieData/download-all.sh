@@ -1,0 +1,15 @@
+aws s3 cp s3://project-fruitfly/charities/train.csv ./charities/train.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/charities/test.csv ./charities/test.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/charities/val.csv ./charities/val.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/nda/train.csv ./nda/train.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/nda/test.csv ./nda/test.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/nda/val.csv ./nda/val.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/fcc_invoices/train.csv ./fcc_invoices/train.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/fcc_invoices/test.csv ./fcc_invoices/test.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/fcc_invoices/val.csv ./fcc_invoices/val.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/resource_contracts/train.csv ./resource_contracts/train.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/resource_contracts/test.csv ./resource_contracts/test.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/resource_contracts/val.csv ./resource_contracts/val.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/s1/train.csv ./s1/train.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/s1/test.csv ./s1/test.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
+aws s3 cp s3://project-fruitfly/s1/val.csv ./s1/val.csv --endpoint-url=https://s3.us-east-2.wasabisys.com --no-sign-request
